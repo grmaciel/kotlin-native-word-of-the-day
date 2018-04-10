@@ -9,10 +9,14 @@ import com.gilson.chapter.repository.WordOfTheDayInMemoryRepository
  */
 class WordUseCase(val dateTime: DateTime) {
 
-    val repository = WordOfTheDayInMemoryRepository()
+    private val repository = WordOfTheDayInMemoryRepository()
 
-    fun wordOfTheDay(): WordOfTheDay {
-        val word = repository.wordOfTheDay()
-        return WordOfTheDay(dateTime.formatDate(), word.first, word.second)
+    fun wordOfTheDay(success: (WordOfTheDay) -> Unit, error: () -> Unit) {
+        try {
+            val word = repository.wordOfTheDay()
+            success(WordOfTheDay(dateTime.formatDate(), word.first, word.second))
+        } catch (ex: Exception) {
+            error()
+        }
     }
 }

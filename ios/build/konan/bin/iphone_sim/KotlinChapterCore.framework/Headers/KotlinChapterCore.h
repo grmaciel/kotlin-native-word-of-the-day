@@ -1,6 +1,6 @@
 #import <Foundation/Foundation.h>
 
-@class KCCCoolStuff, KCCDateTime, KCCWordUseCase, KCCWordOfTheDay, KCCWordOfTheDayInMemoryRepository, KCCStdlibPair;
+@class KCCCoolStuff, KCCDateTime, KCCWordUseCase, KCCStdlibUnit, KCCWordOfTheDay, KCCWordOfTheDayInMemoryRepository, KCCStdlibPair, KCCWordOfTheDayViewModel;
 
 @protocol KCCWordRepository;
 
@@ -41,8 +41,7 @@ __attribute__((objc_subclassing_restricted))
 @interface KCCWordUseCase : KotlinBase
 -(instancetype)initWithDateTime:(KCCDateTime*)dateTime NS_SWIFT_NAME(init(dateTime:)) NS_DESIGNATED_INITIALIZER;
 
--(KCCWordOfTheDay*)wordOfTheDay NS_SWIFT_NAME(wordOfTheDay());
-@property (readonly) KCCWordOfTheDayInMemoryRepository* repository;
+-(void)wordOfTheDaySuccess:(KCCStdlibUnit*(^)(KCCWordOfTheDay*))success error:(KCCStdlibUnit*(^)(void))error NS_SWIFT_NAME(wordOfTheDay(success:error:));
 @property (readonly) KCCDateTime* dateTime;
 @end;
 
@@ -58,6 +57,14 @@ __attribute__((objc_subclassing_restricted))
 @end;
 
 __attribute__((objc_subclassing_restricted))
+@interface KCCWordOfTheDayViewModel : KotlinBase
+-(instancetype)initWithUseCase:(KCCWordUseCase*)useCase NS_SWIFT_NAME(init(useCase:)) NS_DESIGNATED_INITIALIZER;
+
+-(void)retrieveWordSuccess:(KCCStdlibUnit*(^)(KCCWordOfTheDay*))success error:(KCCStdlibUnit*(^)(void))error NS_SWIFT_NAME(retrieveWord(success:error:));
+@property (readonly) KCCWordUseCase* useCase;
+@end;
+
+__attribute__((objc_subclassing_restricted))
 @interface KCCWordOfTheDay : KotlinBase
 -(instancetype)initWithDay:(NSString*)day word:(NSString*)word description:(NSString*)description NS_SWIFT_NAME(init(day:word:description:)) NS_DESIGNATED_INITIALIZER;
 
@@ -68,6 +75,15 @@ __attribute__((objc_subclassing_restricted))
 @property (readonly) NSString* day;
 @property (readonly) NSString* word;
 @property (getter=description_, readonly) NSString* description;
+@end;
+
+__attribute__((objc_subclassing_restricted))
+@interface KCCStdlibUnit : KotlinBase
++(instancetype)alloc __attribute__((unavailable));
++(instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+
++(instancetype)unit NS_SWIFT_NAME(init());
+
 @end;
 
 __attribute__((objc_subclassing_restricted))

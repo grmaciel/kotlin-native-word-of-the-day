@@ -32,13 +32,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainActivity.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainActivity.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/gilson/android/MainActivity.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="361">
+              <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
               <folding>
-                <element signature="e#28#251#0" expanded="true" />
+                <element signature="e#28#378#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WordOfTheDayViewModel.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../common/src/main/kotlin/com/gilson/chapter/viewmodel/WordOfTheDayViewModel.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+              <folding>
+                <element signature="e#38#128#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -47,8 +59,8 @@
       <file leaf-file-name="WordUseCase.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../common/src/main/kotlin/com/gilson/chapter/usecase/WordUseCase.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            <state relative-caret-position="209">
+              <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
               <folding>
                 <element signature="e#36#183#0" expanded="true" />
               </folding>
@@ -111,16 +123,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="local.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/local.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="47" lean-forward="false" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -1041,19 +1043,19 @@
                 <option name="name" value="compileKonan" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Build the Kotlin/Native framework 'compileKonanKotlinGameOfLife' for all supported and declared targets" />
+                <option name="description" value="Build the Kotlin/Native framework 'compileKonanKotlinChapterCore' for all supported and declared targets" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
-                <option name="name" value="compileKonanKotlinGameOfLife" />
+                <option name="name" value="compileKonanKotlinChapterCore" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Build the Kotlin/Native framework 'compileKonanKotlinGameOfLifeIphone' for target 'org.jetbrains.kotlin.konan.target.KonanTarget$IPHONE@2e58b8e2'" />
+                <option name="description" value="Build the Kotlin/Native framework 'compileKonanKotlinChapterCoreIphone' for target 'org.jetbrains.kotlin.konan.target.KonanTarget$IPHONE@37bd292e'" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
-                <option name="name" value="compileKonanKotlinGameOfLifeIphone" />
+                <option name="name" value="compileKonanKotlinChapterCoreIphone" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Build the Kotlin/Native framework 'compileKonanKotlinGameOfLifeIphone_sim' for target 'org.jetbrains.kotlin.konan.target.KonanTarget$IPHONE_SIM@7ff0d58'" />
+                <option name="description" value="Build the Kotlin/Native framework 'compileKonanKotlinChapterCoreIphone_sim' for target 'org.jetbrains.kotlin.konan.target.KonanTarget$IPHONE_SIM@114cf022'" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
-                <option name="name" value="compileKonanKotlinGameOfLifeIphone_sim" />
+                <option name="name" value="compileKonanKotlinChapterCoreIphone_sim" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
@@ -2022,19 +2024,19 @@
                 <option name="name" value="compileKonan" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Build the Kotlin/Native framework 'compileKonanKotlinGameOfLife' for all supported and declared targets" />
+                <option name="description" value="Build the Kotlin/Native framework 'compileKonanKotlinChapterCore' for all supported and declared targets" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../ios" />
-                <option name="name" value="compileKonanKotlinGameOfLife" />
+                <option name="name" value="compileKonanKotlinChapterCore" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Build the Kotlin/Native framework 'compileKonanKotlinGameOfLifeIphone' for target 'org.jetbrains.kotlin.konan.target.KonanTarget$IPHONE@2e58b8e2'" />
+                <option name="description" value="Build the Kotlin/Native framework 'compileKonanKotlinChapterCoreIphone' for target 'org.jetbrains.kotlin.konan.target.KonanTarget$IPHONE@37bd292e'" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../ios" />
-                <option name="name" value="compileKonanKotlinGameOfLifeIphone" />
+                <option name="name" value="compileKonanKotlinChapterCoreIphone" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Build the Kotlin/Native framework 'compileKonanKotlinGameOfLifeIphone_sim' for target 'org.jetbrains.kotlin.konan.target.KonanTarget$IPHONE_SIM@7ff0d58'" />
+                <option name="description" value="Build the Kotlin/Native framework 'compileKonanKotlinChapterCoreIphone_sim' for target 'org.jetbrains.kotlin.konan.target.KonanTarget$IPHONE_SIM@114cf022'" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../ios" />
-                <option name="name" value="compileKonanKotlinGameOfLifeIphone_sim" />
+                <option name="name" value="compileKonanKotlinChapterCoreIphone_sim" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the components produced by project ':ios'. [incubating]" />
@@ -2511,8 +2513,9 @@
         <option value="$PROJECT_DIR$/../common/src/main/kotlin/com/gilson/chapter/repository/WordRepository.kt" />
         <option value="$PROJECT_DIR$/../common/src/main/kotlin/com/gilson/chapter/repository/WordOfTheDayInMemoryRepository.kt" />
         <option value="$PROJECT_DIR$/../common/src/main/kotlin/com/gilson/chapter/model/WordOfTheDay.kt" />
-        <option value="$PROJECT_DIR$/../common/src/main/kotlin/com/gilson/chapter/usecase/WordUseCase.kt" />
         <option value="$PROJECT_DIR$/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/../common/src/main/kotlin/com/gilson/chapter/viewmodel/WordOfTheDayViewModel.kt" />
+        <option value="$PROJECT_DIR$/../common/src/main/kotlin/com/gilson/chapter/usecase/WordUseCase.kt" />
         <option value="$PROJECT_DIR$/src/main/java/com/gilson/android/MainActivity.kt" />
       </list>
     </option>
@@ -2620,6 +2623,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="repository" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chapter-project" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.other.NonAndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.other.NonAndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chapter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2777,7 +2802,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1523345431922" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1523351345676" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2825,7 +2850,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1523345431922" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1523351345677" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -3008,7 +3033,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1523345431923" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1523351345678" />
       </method>
     </configuration>
     <list size="1">
@@ -3205,16 +3230,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../common/src/main/kotlin/com/gilson/chapter/usecase/WordUseCase.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <element signature="e#36#183#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_main.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -3226,12 +3241,32 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../common/src/main/kotlin/com/gilson/chapter/usecase/WordUseCase.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding>
+            <element signature="e#36#183#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gilson/android/MainActivity.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="361">
+          <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
           <folding>
-            <element signature="e#28#251#0" expanded="true" />
+            <element signature="e#28#378#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../common/src/main/kotlin/com/gilson/chapter/viewmodel/WordOfTheDayViewModel.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="e#38#128#0" expanded="true" />
           </folding>
         </state>
       </provider>
