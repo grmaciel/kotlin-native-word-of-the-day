@@ -1,0 +1,14 @@
+apply plugin: 'konan'
+
+konan.targets = ['iphone', 'iphone_sim']
+
+konanArtifacts {
+    framework('KotlinChapterCore') {
+        enableMultiplatform true
+    }
+}
+
+dependencies {
+    expectedBy project(':common')
+}
+

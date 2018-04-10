@@ -1,0 +1,6 @@
+framework module KotlinChapterCore {
+    umbrella header "KotlinChapterCore.h"
+
+    export *
+    module * { export * }
+}
