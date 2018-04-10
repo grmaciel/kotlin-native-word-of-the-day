@@ -13,6 +13,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
         findViewById<TextView>(R.id.txtName).text = WordUseCase(DateTime()).wordOfTheDay().word
         findViewById<TextView>(R.id.txtDesc).text = WordUseCase(DateTime()).wordOfTheDay().description
         findViewById<TextView>(R.id.txtDay).text = WordUseCase(DateTime()).wordOfTheDay().day
