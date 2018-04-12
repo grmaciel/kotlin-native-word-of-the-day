@@ -1,6 +1,6 @@
 #import <Foundation/Foundation.h>
 
-@class KCCCoolStuff, KCCDateTime, KCCWordUseCase, KCCStdlibUnit, KCCWordOfTheDay, KCCWordOfTheDayInMemoryRepository, KCCStdlibPair, KCCWordOfTheDayViewModel;
+@class KCCDateTime, KCCWordUseCase, KCCStdlibUnit, KCCWordOfTheDay, KCCWordOfTheDayInMemoryRepository, KCCStdlibPair, KCCWordOfTheDayViewModel;
 
 @protocol KCCWordRepository;
 
@@ -21,13 +21,6 @@ __attribute__((objc_runtime_name("KotlinMutableSet")))
 
 __attribute__((objc_runtime_name("KotlinMutableDictionary")))
 @interface KCCMutableDictionary<KeyType, ObjectType> : NSMutableDictionary<KeyType, ObjectType>
-@end;
-
-__attribute__((objc_subclassing_restricted))
-@interface KCCCoolStuff : KotlinBase
--(instancetype)init NS_SWIFT_NAME(init()) NS_DESIGNATED_INITIALIZER;
-
--(NSString*)cool NS_SWIFT_NAME(cool());
 @end;
 
 __attribute__((objc_subclassing_restricted))
